@@ -3,7 +3,7 @@
     <menu>
       <nuxt-link to="/footnotes" class="button--green">footnote test</nuxt-link>
       <nuxt-link to="/editor" class="button--green">editor</nuxt-link>
-      <nuxt-link to="/editor-collab" class="button--green"
+      <nuxt-link :to="'/dearborn/write/' + (+new Date).toString(36).slice(-15)" class="button--green"
         >collaboration</nuxt-link
       >
     </menu>
