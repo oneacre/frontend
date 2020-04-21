@@ -79,8 +79,8 @@ export default {
   },
   mounted() {
     // server implementation: https://glitch.com/edit/#!/tiptap-sockets
-    // const url = 'wss://a984747989c98d65107d889cad5766af.balena-devices.com'
-    const url = 'http://localhost:5000'
+    const url = 'wss://a984747989c98d65107d889cad5766af.balena-devices.com'
+    // const url = 'http://localhost:5000'
     // const url = 'wss://tiptap-sockets.glitch.me'
     
     this.slug = this.$route.params.index;
