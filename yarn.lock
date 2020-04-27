@@ -4025,10 +4025,10 @@ front-matter@^3.0.1:
   dependencies:
     js-yaml "^3.13.1"
 
-frontmatter-markdown-loader@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/frontmatter-markdown-loader/-/frontmatter-markdown-loader-3.3.0.tgz#7c0cba88e31b3df602a581e968e3cb894dfb81bc"
-  integrity sha512-aEn0v7XM+pvvCltcnUSrFAjVziH5jgjR0Z+ccVH7QXZDYLN5FjUxj15tUvEVHx6mgV6HVHkmt1YdDQowyOIQxA==
+frontmatter-markdown-loader@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/frontmatter-markdown-loader/-/frontmatter-markdown-loader-3.4.0.tgz#a60f1f211bab52084ed1189b0df5438c4e919aa3"
+  integrity sha512-iOk0zflVVSO5rsP01RrkWJskcwCRK+btJ6tWOZ5K15onIV6tdQNguiRSBmahhW8q0XW3pPOp7iRV1oHr0C6MMQ==
   dependencies:
     front-matter "^3.0.1"
     loader-utils "^2.0.0"
@@ -5439,16 +5439,7 @@ loader-utils@^0.2.16:
     json5 "^0.5.0"
     object-assign "^4.0.1"
 
-loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
-  integrity sha512-fkpz8ejdnEMG3s37wGL07iSBDg99O9D5yflE9RGNH3hRdx9SOwYfnGYdZOUIZitN8E+E2vkq3MUMYMvPYl5ZZA==
-  dependencies:
-    big.js "^5.2.2"
-    emojis-list "^2.0.0"
-    json5 "^1.0.1"
-
-loader-utils@^1.4.0:
+loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.4.0.tgz#c579b5e34cb34b1a74edc6c1fb36bfa371d5a613"
   integrity sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==
