@@ -23,6 +23,18 @@ export default {
     fallback: true, // if you want to use '404.html' instead of the default '200.html'
     // fallback: 'my-fallback/file.html' // if your hosting needs a custom location
   },
+  // router
+
+    router: {
+      extendRoutes(routes, resolve) {
+        console.log(routes)
+        // routes.push({
+        //   name: 'custom',
+        //   path: '*',
+        //   component: resolve(__dirname, 'pages/404.vue')
+        // })
+      }
+    } ,
   /*
    ** Customize the progress-bar color
    */
