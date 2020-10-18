@@ -30,7 +30,7 @@
     color: rgba(0,0,0,0);
 }
 
-body{
+.body {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -48,7 +48,7 @@ img{
     display: block;
 }
 /* ------  payment  ------ */
-body {
+.body {
   min-height: calc(100vh - 2px);
   padding-top: 50px;
   padding-right: 10px;
@@ -170,7 +170,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-	body{padding: 0px;}
+	.body{padding: 0px;}
 	.oa_payment_wrapper{margin-top: 0px;}
 	.oa_left{float: none; text-align: center; position: relative; display: table; margin: auto; margin-bottom: 40px;}
 	.oa_left img{max-width: 350px;}

@@ -51,6 +51,7 @@
       </template>
   </template>
   <script>
+    console.log('erasure page content');
     (function()
     {
       'use strict';
@@ -761,6 +762,7 @@
 
         nextCount: function()
         {
+          console.log('nextCount yun')
           // will not call `destroy` more than once per 3000ms, and data binding will update it
           this.debounce('destroy', function()
           {

@@ -19,7 +19,10 @@
     "retrospection"
   ],
   "print": [
-    "edition", "stamp", "writing", "imprint"
+    "edition",
+    "stamp",
+    "writing",
+    "imprint"
   ],
   "erasure": [
     "deletion",
@@ -59,7 +62,11 @@
     "register"
   ],
   "history": [
-    "past", "antiquity", "account", "chronicle", "background"
+    "past",
+    "antiquity",
+    "account",
+    "chronicle",
+    "background"
   ],
   "time": [
     "age",
@@ -164,13 +171,19 @@
     "clang"
   ],
   "past": [
-    "history", "antiquity"
+    "history",
+    "antiquity"
   ],
   "each": [
-    "individual", "particular", "respective", "all"
+    "individual",
+    "particular",
+    "respective",
+    "all"
   ],
   "only": [
-    "solely", "purely", "merely"
+    "solely",
+    "purely",
+    "merely"
   ],
   "process": [
     "mechanism",
@@ -276,7 +289,8 @@
     "entity"
   ],
   "into": [
-    "toward", "within"
+    "toward",
+    "within"
   ],
   "various": [
     "assorted",
@@ -340,7 +354,9 @@
     "receive"
   ],
   "no": [
-    "negative", "nix", "never"
+    "negative",
+    "nix",
+    "never"
   ],
   "work": [
     "effort",
@@ -406,7 +422,11 @@
     "rabble"
   ],
   "world": [
-    "earth", "nature", "cosmos", "macrocosm", "microcosm"
+    "earth",
+    "nature",
+    "cosmos",
+    "macrocosm",
+    "microcosm"
   ],
   "idea": [
     "belief",
@@ -451,42 +471,118 @@
     "principal",
     "original"
   ],
-  "identities": [""],
-  "see": [""],
-  "human": [""],
-  "bodies": [""],
-  "such": [""],
-  "failure": [""],
-  "histories": [""],
-  "may": [""],
-  "over": [""],
-  "where": [""],
-  "news": [""],
-  "point": [""],
-  "part": [""],
-  "forget": [""],
-  "speech": [""],
-  "between": [""],
-  "way": [""],
-  "back": [""],
-  "like": [""],
-  "file": [""],
-  "if": [""],
-  "methods": [""],
-  "become": [""],
-  "erased": [""],
-  "voice": [""],
-  "future": [""],
-  "self": [""],
-  "until": [""],
-  "text": [""],
-  "original": [""],
-  "many": [""],
-  "before": [""],
-  "political": [""],
-  "lost": [""],
-  "down": [""],
-  "off": [""],
-  "collective": [""],
-  "generative": [""]
+  "identities": [
+    ""
+  ],
+  "see": [
+    ""
+  ],
+  "human": [
+    ""
+  ],
+  "bodies": [
+    ""
+  ],
+  "such": [
+    ""
+  ],
+  "failure": [
+    ""
+  ],
+  "histories": [
+    ""
+  ],
+  "may": [
+    ""
+  ],
+  "over": [
+    ""
+  ],
+  "where": [
+    ""
+  ],
+  "news": [
+    ""
+  ],
+  "point": [
+    ""
+  ],
+  "part": [
+    ""
+  ],
+  "forget": [
+    ""
+  ],
+  "speech": [
+    ""
+  ],
+  "between": [
+    ""
+  ],
+  "way": [
+    ""
+  ],
+  "back": [
+    ""
+  ],
+  "like": [
+    ""
+  ],
+  "file": [
+    ""
+  ],
+  "if": [
+    ""
+  ],
+  "methods": [
+    ""
+  ],
+  "become": [
+    ""
+  ],
+  "erased": [
+    ""
+  ],
+  "voice": [
+    ""
+  ],
+  "future": [
+    ""
+  ],
+  "self": [
+    ""
+  ],
+  "until": [
+    ""
+  ],
+  "text": [
+    ""
+  ],
+  "original": [
+    ""
+  ],
+  "many": [
+    ""
+  ],
+  "before": [
+    ""
+  ],
+  "political": [
+    ""
+  ],
+  "lost": [
+    ""
+  ],
+  "down": [
+    ""
+  ],
+  "off": [
+    ""
+  ],
+  "collective": [
+    ""
+  ],
+  "generative": [
+    ""
+  ]
 }

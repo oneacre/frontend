@@ -144,7 +144,7 @@ $(window).resize(function() {
 		context = canvas.getContext('2d');
 
 	// resize the canvas to fill browser window dynamically
-	window.addEventListener('resize', resizeCanvas, false);
+  $( document ).resize(resizeCanvas)
 
 	function resizeCanvas() {
 		canvas.width = window.innerWidth;

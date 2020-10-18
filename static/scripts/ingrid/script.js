@@ -32,9 +32,9 @@ function pad(d) {
 	return (d < 10) ? '0' + d.toString() : d.toString();
 }
 
-document.addEventListener("DOMContentLoaded", function(event) {
-	// hacky wait a little bit before so the text can load
-	var count = 1;
+$( document ).ready(function() {
+  // Handler for .ready() called.
+  var count = 1;
 	console.log('loaded');
 	setTimeout(function() {
 		console.log('timeout');
@@ -153,7 +153,7 @@ $(function() {
 
 // ------------ Fade In ------------ //
 
-document.addEventListener("DOMContentLoaded", function(event) {
+$( document ).ready(function() {
 	$(function() {
 		$('.oa_title_container').animate({
 			opacity: "1"
@@ -202,8 +202,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var canvas = document.getElementById('canvas'),
 		context = canvas.getContext('2d');
 
-	// resize the canvas to fill browser window dynamically
-	window.addEventListener('resize', resizeCanvas, false);
+  // resize the canvas to fill browser window dynamically
+  $( document ).resize(resizeCanvas)
 
 	function resizeCanvas() {
 		canvas.width = window.innerWidth;

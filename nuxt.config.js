@@ -1,5 +1,5 @@
 import Mode from 'frontmatter-markdown-loader/mode'
-import {markdownCustomCompiler} from './helpers/markdownCustomCompiler'
+import { markdownCustomCompiler } from './helpers/markdownCustomCompiler'
 
 export default {
   mode: 'spa',
@@ -14,10 +14,11 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: process.env.npm_package_description || '',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [{src: 'https://code.jquery.com/jquery-3.2.1.min.js'}],
   },
   generate: {
     fallback: true, // if you want to use '404.html' instead of the default '200.html'
@@ -25,16 +26,11 @@ export default {
   },
   // router
 
-    router: {
-      extendRoutes(routes, resolve) {
-        console.log(routes)
-        // routes.push({
-        //   name: 'custom',
-        //   path: '*',
-        //   component: resolve(__dirname, 'pages/404.vue')
-        // })
-      }
-    } ,
+  router: {
+    extendRoutes(routes, resolve) {
+      console.log(routes)
+    },
+  },
   /*
    ** Customize the progress-bar color
    */
@@ -46,11 +42,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['~/plugins/directives.js'],
   /*
-  ** Nuxt.js dev-modules
-  */
- // Doc: https://hackernoon.com/how-i-use-scss-variables-mixins-functions-globally-in-nuxt-js-projects-while-compiling-css-utilit-58bb6ff30438
+   ** Nuxt.js dev-modules
+   */
+  // Doc: https://hackernoon.com/how-i-use-scss-variables-mixins-functions-globally-in-nuxt-js-projects-while-compiling-css-utilit-58bb6ff30438
   buildModules: ['@nuxtjs/style-resources'],
   /*
    ** Nuxt.js modules
@@ -64,9 +60,7 @@ export default {
   ],
 
   styleResources: {
-      scss: [
-          'assets/scss/main.scss'
-      ]
+    scss: ['assets/scss/main.scss'],
   },
   /*
    ** Axios module configuration
@@ -94,8 +88,8 @@ export default {
           //   linkify: true,
           //   breaks: true
           // }
-        }
+        },
       })
-    }
-  }
+    },
+  },
 }
