@@ -18,7 +18,6 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [{src: 'https://code.jquery.com/jquery-3.2.1.min.js'}],
   },
   generate: {
     fallback: true, // if you want to use '404.html' instead of the default '200.html'
