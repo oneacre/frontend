@@ -11,7 +11,7 @@
 
 </script>
 <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/polymer/polymer.html">
 
 <dom-module id="erasure-page-section">
   <template>
@@ -51,7 +51,6 @@
       </template>
   </template>
   <script>
-    console.log('erasure page content');
     (function()
     {
       'use strict';
@@ -762,7 +761,6 @@
 
         nextCount: function()
         {
-          console.log('nextCount yun')
           // will not call `destroy` more than once per 3000ms, and data binding will update it
           this.debounce('destroy', function()
           {
@@ -771,10 +769,6 @@
               var count = this.get('count');
               this.set('count', count + 1);
               this._doIt();
-
-
-
-
             }
           }, 150);
         },

@@ -1,23 +1,81 @@
 import Mode from 'frontmatter-markdown-loader/mode'
 import { markdownCustomCompiler } from './helpers/markdownCustomCompiler'
 
+const siteMeta = {
+  title: 'oneacre.online',
+  description:
+    'oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilise the omnidirectional website space to seed works.',
+  image: 'http://www.oneacre.online/images/ingrid/oa_meta_img.jpg',
+}
+
 export default {
   mode: 'spa',
   /*
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: siteMeta.title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: 'V7vbhUc7Ac1zBbL-C2C7N07OR0FbJITlzmBBigadURY',
+      },
+      {
+        hid: 'fb:page_id',
+        name: 'fb:page_id',
+        content: '1143704795732201',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: siteMeta.title,
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: siteMeta.image,
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: siteMeta.title,
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@onacre.online',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: siteMeta.image,
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: siteMeta.description,
+      },
+      {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content: siteMeta.description,
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        type: 'text/javascript',
+        src: '/scripts/jquery-3.2.1.min.js',
+      },
+    ],
   },
   generate: {
     fallback: true, // if you want to use '404.html' instead of the default '200.html'

@@ -1,110 +1,29 @@
-<html>
-  <head>
-    <title>oneacre.online</title>
-
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <link rel="“canonical”" href="“http://oneacre.online”" />
-
-    <!-- Google META -->
-    <!-- Microdata markup added by Google Structured Data Markup Helper. -->
-    <link rel="alternate" hreflang="en-us" href="alternateURL" />
-    <meta
-      name="Description"
-      content="oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilise the omnidirectional website space to seed works."
-    />
-    <meta
-      name="google-site-verification"
-      content="V7vbhUc7Ac1zBbL-C2C7N07OR0FbJITlzmBBigadURY"
-    />
-    <meta name="robots" content="index,follow,NOARCHIVE" />
-
-    <!-- Facebook META -->
-    <meta property="og:url" content="http://www.oneacre.online" />
-    <meta property="og:title" content="Poetics and Politics of Erasure" />
-    <meta
-      property="og:description"
-      content="oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilise the omnidirectional website space to seed works."
-    />
-    <meta
-      property="og:image"
-      content="http://www.oneacre.online/images/ingrid/oa_meta_img.jpg"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="fb:page_id" content="1143704795732201" />
-
-    <!-- Twitter META -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@oneacre_online" />
-    <meta name="twitter:title" content="Poetics and Politics of Erasure" />
-    <meta
-      name="twitter:description"
-      content="oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilise the omnidirectional website space to seed works."
-    />
-    <meta
-      name="twitter:image"
-      content="http://www.oneacre.online/images/ingrid/oa_meta_img.jpg"
-    />
-
-    <link
-      rel="stylesheet"
-      href="/styles/oneacre/fonts.css"
-      media="screen"
-      title="no title"
-    />
-    <link rel="stylesheet" href="/styles/works/ingrid/style.css" />
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-    <script>
-      // Force all polyfills on
-      if (window.customElements) window.customElements.forcePolyfill = true
-      ShadyDOM = {
-        force: true,
-      }
-      ShadyCSS = {
-        shimcssproperties: true,
-      }
-    </script>
-    <script src="/bower_components/webcomponentsjs/webcomponents-loader.js"></script>
-    <link rel="import" href="/bower_components/polymer/polymer.html" />
-
-    <!-- <%if (popup === true) { %> -->
-    <!-- <style media="screen">
-      .oa_modal_wrapper {
-        display: block;
-      }
-    </style> -->
-    <!-- <% } %> -->
+<template>
+  <div class="plain-html">
     <span class="oa_window_border" id="border_top"></span>
     <span class="oa_window_border" id="border_right"></span>
     <span class="oa_window_border" id="border_bottom"></span>
     <span class="oa_window_border" id="border_left"></span>
-  </head>
-  <body>
     <!-- Canvas -->
     <canvas id="canvas" width="100%" height="100vh"></canvas>
     <!-- Logo -->
-    <Logo />
+    <div class="oa_logo">
+      <div class="oa_logo_color" id="oa_logo_p1">one acre</div>
+      <div class="oa_logo_inner">
+        <div class="oa_logo_color" id="oa_logo_p2">.online</div>
+      </div>
+    </div>
+
     <!-- Payment -->
     <div class="oa_payment">
       <a href="/payment/ingrid">purchase a copy</a>
     </div>
     <!-- Wrapper -->
-    <div class="wrapper">
+    <div class="oa_wrapper">
       <!-- Mobile Header -->
       <div class="oa_mobile_header">
         <a href="/">oneacre.online</a>
-        <img
-          class="oa_plus"
-          id="oa_h_plus"
-          src="https://www.oneacre.online/images/ingrid/oa_plus.svg"
-        />
+        <img class="oa_plus" id="oa_h_plus" src="/images/ingrid/oa_plus.svg" />
       </div>
       <!-- Mobile Menu -->
       <div class="oa_mobile_menu">
@@ -121,7 +40,7 @@
         <div class="oa_title_container">
           <img
             class="oa_title_img"
-            src="https://www.oneacre.online/images/ingrid/poetics_and_politics_title.svg"
+            src="/images/ingrid/poetics_and_politics_title.svg"
             alt=""
           />
         </div>
@@ -131,15 +50,7 @@
       <!-- Content -->
       <div class="oa_content">
         <div class="oa_c_left">
-          <link
-            rel="import"
-            href="elements/erasure-content/erasure-content.html"
-          />
-          <link
-            rel="import"
-            href="elements/erasure-page-section/erasure-page-section.html"
-          />
-          <erasure-content visitors="500"></erasure-content>
+          <erasure-content :visitors="visitors"></erasure-content>
         </div>
 
         <!-- Content - Footnotes -->
@@ -296,8 +207,8 @@
             <div class="oa_f_number">16</div>
             <div class="oa_f_entry">
               Coined by Eli Pariser in his 2011 book
-              <span class="oa_f_title">The Filter Bubble</span>. He explains
-              it clearly in a TED talk:
+              <span class="oa_f_title">The Filter Bubble</span>. He explains it
+              clearly in a TED talk:
               https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles
             </div>
           </div>
@@ -315,8 +226,8 @@
             <div class="oa_f_number">18</div>
             <div class="oa_f_entry">
               Chun W.<span class="oa_f_title">Crisis + Habit = Update</span>
-              [Lecture] Sonic Acts Festival — The Noise Of Being. 25th
-              February 2017.
+              [Lecture] Sonic Acts Festival — The Noise Of Being. 25th February
+              2017.
             </div>
           </div>
           <div class="oa_footnote" id="fe_19">
@@ -543,9 +454,9 @@
             <div class="oa_f_entry">
               This particular bill was printed in commemoration of the 100th
               anniversary of the founding of the Republic of China by Kuo Min
-              Tang leader Sun Yat-Sen. The accompanying soundtrack in this
-              part of Betty Apple’s video is a remix of the centenary
-              recording of the national anthem.
+              Tang leader Sun Yat-Sen. The accompanying soundtrack in this part
+              of Betty Apple’s video is a remix of the centenary recording of
+              the national anthem.
             </div>
           </div>
           <div class="oa_footnote" id="fe_40">
@@ -612,9 +523,9 @@
             <div class="oa_f_number">45</div>
             <div class="oa_f_entry">
               The name Azania was originally given to a large stretch of
-              Southeast Africa. Since Apartheid, Azania has been used by
-              several black liberation groups to refer to South Africa. It is
-              still a highly contentious name today.
+              Southeast Africa. Since Apartheid, Azania has been used by several
+              black liberation groups to refer to South Africa. It is still a
+              highly contentious name today.
             </div>
           </div>
           <div class="oa_footnote" id="fe_46">
@@ -712,32 +623,85 @@
         <div class="oa_footer_social">
           <div class="oa_social">
             <a target="_blank" href="https://www.facebook.com/oneacre.online">
-              <img src="https://www.oneacre.online/images/oneacre/fb.svg" />
+              <img src="/images/oneacre/fb.svg" />
             </a>
           </div>
           <div class="oa_social">
-            <a
-              target="_blank"
-              href="https://www.instagram.com/oneacre.online/"
-            >
-              <img
-                src="https://www.oneacre.online/images/oneacre/instagram.svg"
-              />
+            <a target="_blank" href="https://www.instagram.com/oneacre.online/">
+              <img src="/images/oneacre/instagram.svg" />
             </a>
           </div>
           <div class="oa_social" id="oa_twitter">
             <a target="_blank" href="https://twitter.com/oneacre_online">
-              <img
-                src="https://www.oneacre.online/images/oneacre/twitter.svg"
-              />
+              <img src="/images/oneacre/twitter.svg" />
             </a>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</template>
 
-    <!-- scripts -->
-    <script type="text/javascript" src="/scripts/oneacre/index.js"></script>
-    <script src="/scripts/ingrid/script.js" charset="utf-8"></script>
-  </body>
-</html>
+<script>
+import { setMeta } from '~/helpers'
+
+export default {
+  data() {
+    return {
+      title: 'Poetics and Politics of Erasure',
+      description:
+        'oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilise the omnidirectional website space to seed works.',
+      image: '/images/ingrid/oa_meta_img.jpg',
+      visitors: 2000,
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: setMeta(this.title, this.description, this.image),
+      script: [
+        {
+          type: 'text/javascript',
+          src: '/bower_components/webcomponentsjs/webcomponents-lite.js',
+        },
+        {
+          type: 'text/javascript',
+          src: '/scripts/oneacre/index.js',
+        },
+        {
+          type: 'text/javascript',
+          src: '/scripts/ingrid/script.js',
+        },
+      ],
+      link: [
+        {
+          rel: 'import',
+          href: '/bower_components/polymer/polymer.html',
+        },
+        {
+          rel: 'import',
+          href: '/elements/erasure-content/erasure-content.html',
+        },
+        {
+          rel: 'import',
+          href: '/elements/erasure-page-section/erasure-page-section.html',
+        },
+        {
+          rel: 'stylesheet',
+          href: '/styles/works/ingrid/style.css',
+        },
+        {
+          rel: 'stylesheet',
+          href: '/styles/oneacre/fonts.css',
+        },
+        {
+          rel: 'stylesheet',
+          href: '/styles/works/ingrid/style.css',
+        },
+      ],
+    }
+  },
+}
+</script>
+
+<style scoped></style>
