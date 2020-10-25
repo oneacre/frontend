@@ -53,7 +53,6 @@ export const format = object => {
 }
 
 export const setMeta = (title, description, image) => {
-  console.log('setMeta', title);
   return [
     {
       hid: 'og:title',
