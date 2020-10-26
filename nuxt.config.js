@@ -83,10 +83,11 @@ export default {
   },
   // router
 
-  router: {
-    extendRoutes(routes, resolve) {
-      console.log(routes)
-    },
+  router: {},
+
+  axios: {
+    proxyHeaders: false,
+    credentials: false
   },
   /*
    ** Customize the progress-bar color
