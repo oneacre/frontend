@@ -119,20 +119,25 @@
         </div>
       </div>
     </div>
+
+    <Posts :posts="posts" />
   </div>
 </template>
 
 <script>
 import { setMeta } from '~/helpers'
 import Minimap from '~/components/meaning-seeking-animals/Minimap'
+import Posts from '~/components/meaning-seeking-animals/Posts'
 
 export default {
   async asyncData({ $axios }) {
     const posts = await $axios.$get('http://localhost:8080/api/v2/lisa')
+    console.log(posts)
     return { posts }
   },
   components: {
     Minimap,
+    Posts,
   },
   data() {
     return {
@@ -149,15 +154,19 @@ export default {
       script: [
         {
           type: 'text/javascript',
-          src: '/scripts/sophieeline/moment.min.js',
-        },
-        {
-          type: 'text/javascript',
           src: '/scripts/oneacre/logo.js',
         },
         {
           type: 'text/javascript',
-          src: '/scripts/sophieeline/script.js',
+          src: '/scripts/lisa/script.js',
+        },
+        {
+          type: 'text/javascript',
+          src: '/scripts/lisa/audio_player.js',
+        },
+        {
+          type: 'text/javascript',
+          src: '/scripts/lisa/vancouver_script.js',
         },
       ],
       link: [

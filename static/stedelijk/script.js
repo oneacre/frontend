@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('iframe').load(function() {
+  $('iframe').on('load', function() {
     $('iframe').contents().find("head")
       .append($('<link rel="stylesheet" href="/stedelijk/iframe.css">'));
   });
@@ -27,7 +27,7 @@ $(document).ready(function() {
 // });
 
 
-$(window).load(function() {
+$(window).on('load', function() {
   $('.sma_start').fadeIn(1000);
   $('.sma_loader').removeClass('loading');
   $('.sma_loader').addClass('loaded');
