@@ -9,7 +9,8 @@ const siteMeta = {
 }
 
 export default {
-  mode: 'spa',
+  ssr: false,
+  target: 'static',
   /*
    ** Headers of the page
    */
@@ -82,12 +83,8 @@ export default {
     // fallback: 'my-fallback/file.html' // if your hosting needs a custom location
   },
   // router
-
-  router: {},
-
-  axios: {
-    proxyHeaders: false,
-    credentials: false
+  router: {
+    middleware: ['authLink']
   },
   /*
    ** Customize the progress-bar color
@@ -124,7 +121,11 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    proxyHeaders: false,
+    credentials: false,
+    baseURL: process.env.DEVELOPMENT ? 'http://localhost:8080' : 'http://api.oneacre.online'
+  },
   /*
    ** Build configuration
    */
@@ -141,11 +142,6 @@ export default {
           markdown: (body) => {
             return markdownCustomCompiler(body)
           },
-          // markdownIt: {
-          //   html: true,
-          //   linkify: true,
-          //   breaks: true
-          // }
         },
       })
     },
