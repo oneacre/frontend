@@ -646,13 +646,13 @@
 import { setMeta } from '~/helpers'
 
 export default {
+
   data() {
     return {
       title: 'Poetics and Politics of Erasure',
       description:
         'oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilise the omnidirectional website space to seed works.',
       image: '/images/ingrid/oa_meta_img.jpg',
-      visitors: 2000,
     }
   },
   head() {
@@ -699,6 +699,17 @@ export default {
           href: '/styles/works/ingrid/style.css',
         },
       ],
+    }
+  },
+  async asyncData({ $axios, error, params }) {
+    try {
+      const visitors = await $axios.$get('/ingrid/count') || 0
+      console.log('visitors', visitors)
+      return {
+        visitors
+      }
+    } catch (err) {
+      console.log(err)
     }
   },
 }

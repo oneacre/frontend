@@ -203,7 +203,7 @@ import Posts from '~/components/meaning-seeking-animals/Posts'
 
 export default {
   async asyncData({ $axios }) {
-    const posts = await $axios.$get('http://localhost:8080/api/v2/lisa')
+    const posts = await $axios.$get('/lisa')
     return { posts }
   },
   components: {
