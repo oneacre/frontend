@@ -1435,7 +1435,6 @@ body {
   padding: 0px;
   text-transform: lowercase;
   cursor: pointer;
-  display: none;
 }
 
 .sma_start:focus {

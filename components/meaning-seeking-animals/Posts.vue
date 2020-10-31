@@ -1,9 +1,4 @@
 <template>
-  <!-- <% var post_margin = 40 %>
-
-	<% var post_width = 500 + post_margin %>
-	<% var post_height = 600 + post_margin %> -->
-
   <div class="ma_wrapper">
     <!-- Title -->
     <div class="ma_title">
@@ -48,25 +43,25 @@
         <h3 class="balance-text">
           {{ post.title }}
         </h3>
-        <p class="ma_text">
-          {{ post.content.replace(/(?:\\[(n)]|[\n])/g, '<br />') }}
-          <img :src="post.image" />
-        </p>
+
+        <pre class="ma_text">{{ post.content | parseContent }}
+            <img v-if="post.image" :src="post.image" />
+          </pre>
+
         <div class="ma_post_reference_inputs">
           <div class="source" :id="post.references">
             <span
-              v-for="reference in Object.keys(post.inputs)"
-              :key="reference"
-              :class="reference"
-              >{{ post.inputs[reference] }}</span
+              v-for="key in Object.keys(post.inputs)"
+              :key="key"
+              :class="key"
             >
+              {{ post.inputs[key] }}
+            </span>
           </div>
         </div>
         <cite class="ma_post_reference_preview"></cite>
         <div class="ma_select"></div>
       </div>
-
-      <!-- <% } %> -->
     </div>
   </div>
 </template>
@@ -88,19 +83,25 @@ export default {
     },
   },
   created() {
-    console.log('mounted!')
     for (let x = 0; x < 50; x++) {
       for (let y = 0; y < 30; y++) {
         this.coordinates.push({ x, y })
       }
     }
   },
-  methods: {
-    wrap(type, inner) {
-      return '<span class="' + type + '">' + inner + '</span>'
+  methods: {},
+  filters: {
+    parseContent: (content) => {
+      return content.trim()
     },
   },
 }
 </script>
 
-<style></style>
+<style>
+.ma_text {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+}
+</style>
