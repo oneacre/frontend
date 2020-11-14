@@ -4,7 +4,7 @@ import { markdownCustomCompiler } from './helpers/markdownCustomCompiler'
 const url =
   process.env.NODE_ENV === 'development'
     ? 'http://localhost:8080'
-    : 'http://oneacre.online'
+    : 'https://oneacre.online'
 
 const siteMeta = {
   title: 'oneacre.online',
