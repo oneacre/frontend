@@ -38,7 +38,7 @@
     "lodash": "^4.17.20",
     "markdown-it": "^12.0.2",
     "markdown-it-footnote": "^3.0.2",
-    "nuxt": "^2.14.7",
+    "nuxt": "^2.14.9",
     "prosemirror-model": "1.11.2",
     "tiptap": "^1.30.0",
     "tiptap-extensions": "^1.33.2",
