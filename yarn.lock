@@ -6188,7 +6188,7 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
-lib0@^0.2.12, lib0@^0.2.28, lib0@^0.2.31, lib0@^0.2.34, lib0@^0.2.35:
+lib0@^0.2.28, lib0@^0.2.31, lib0@^0.2.34, lib0@^0.2.35:
   version "0.2.35"
   resolved "https://registry.yarnpkg.com/lib0/-/lib0-0.2.35.tgz#1d62adb3feefce70c84f3eb664c5e50286de41ca"
   integrity sha512-drVD3EscB3TIxiFzceuZg7oF5Z6I8a0KX+7FowNcAXOEsTej/hlHB+ElJ8Pa/Ge73Gy3fklSJtPxpNd2PajdWg==
@@ -10831,12 +10831,12 @@ xxhashjs@^0.2.1:
   dependencies:
     cuint "^0.2.2"
 
-y-indexeddb@^9.0.5:
-  version "9.0.5"
-  resolved "https://registry.yarnpkg.com/y-indexeddb/-/y-indexeddb-9.0.5.tgz#a162526add738a456b7185a6a5626534609ee132"
-  integrity sha512-40VxkqPoK2VxE1vMosS5MfwlHQOvaeLEN89dIkjh7URjZny6bDQOl4yKldaDv9ZosZgYEPyWuWTF3Z92RZ1y+A==
+y-indexeddb@^9.0.6:
+  version "9.0.6"
+  resolved "https://registry.yarnpkg.com/y-indexeddb/-/y-indexeddb-9.0.6.tgz#49aecac11bc229571fb134e0ec0717c0330b731f"
+  integrity sha512-8mdCYdzZDWS2lGiB9Reaz67ZqvnV6EXH/F7L+TmBC+3mWjIBrPw4UcI79nOhEOh+y9lHXzNpSda4YJ06M13F1A==
   dependencies:
-    lib0 "^0.2.12"
+    lib0 "^0.2.35"
 
 y-leveldb@^0.1.0:
   version "0.1.0"
