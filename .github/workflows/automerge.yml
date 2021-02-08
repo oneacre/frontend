@@ -1,5 +1,5 @@
+# https://github.com/marketplace/actions/auto-merge-pull-request
 name: Automerge
-
 on:
   # Try merging a pull request when it is approved.
   pull_request_review:
