@@ -5,6 +5,13 @@ on:
   pull_request_review:
     types:
       - submitted
+  # Try merging pull requests belonging to a workflow run.
+  workflow_run:
+    workflows:
+      - CI
+    types:
+      - completed
+
 jobs:
   automerge:
     if: github.event.review.state == 'approved'
