@@ -1,17 +1,14 @@
-# https://github.com/marketplace/actions/auto-merge-pull-request
-name: Automerge
+name: auto-merge
+
 on:
-  schedule:
-    - cron: 0 * * * *
-      
+  pull_request:
+
 jobs:
-  automerge:
-    if: github.event.review.state == 'approved'
+  auto-merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: reitermarkus/automerge@v1
+      - uses: actions/checkout@v2
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          merge-method: merge
-          do-not-merge-labels: no-automerge
-          pull-request: ${{ github.event.inputs.pull-request }}
+          target: minor
+          github-token: ${{ secrets.mytoken }}
