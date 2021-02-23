@@ -1552,12 +1552,12 @@
   dependencies:
     y-prosemirror "^1.0.6"
 
-"@tiptap/extension-collaboration@^2.0.0-alpha.4":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration/-/extension-collaboration-2.0.0-alpha.10.tgz#4a355e5ec74c4f4ff75fc36ab892fd076a03c595"
-  integrity sha512-SgIvZU/RoWH8P+5zl9Gn0wQWyeV4m0JFuj0qxC9N2gIfPP1Z2XZsM7aOzZr9jq0KK8NnzJBHxq6Hx1WjPrJ24Q==
+"@tiptap/extension-collaboration@^2.0.0-alpha.11":
+  version "2.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration/-/extension-collaboration-2.0.0-alpha.11.tgz#99cb6ad80802c67fdde99df9f23fbc244837eaa3"
+  integrity sha512-HF73euysBaN9LLx3falZifPETmXZq0AU6AZVmP2Cc1wXFIxWANqV4NMmB5ZexHxdGF8HJOrd2hcTTLtFOq/XGg==
   dependencies:
-    y-prosemirror "^1.0.5"
+    y-prosemirror "^1.0.6"
 
 "@tiptap/extension-document@^2.0.0-alpha.11":
   version "2.0.0-alpha.11"
@@ -8335,16 +8335,7 @@ prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transfor
   dependencies:
     prosemirror-model "^1.0.0"
 
-prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, prosemirror-view@^1.16.5, prosemirror-view@^1.17.5, prosemirror-view@^1.17.6:
-  version "1.17.7"
-  resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.17.7.tgz#33cd9ee4284acd9445d69d785eba7e70fb366b61"
-  integrity sha512-vm7rm0wg/3jaOR21oHI5cQaO6ONJs2gCBeUD7h340POOWxyX1Iq5Ej522GqpCBTHTBmIM9/J6Dv3WKMiMC3azQ==
-  dependencies:
-    prosemirror-model "^1.1.0"
-    prosemirror-state "^1.0.0"
-    prosemirror-transform "^1.1.0"
-
-prosemirror-view@^1.17.6:
+prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, prosemirror-view@^1.16.5, prosemirror-view@^1.17.6:
   version "1.17.7"
   resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.17.7.tgz#33cd9ee4284acd9445d69d785eba7e70fb366b61"
   integrity sha512-vm7rm0wg/3jaOR21oHI5cQaO6ONJs2gCBeUD7h340POOWxyX1Iq5Ej522GqpCBTHTBmIM9/J6Dv3WKMiMC3azQ==
@@ -10844,7 +10835,7 @@ y-leveldb@^0.1.0:
     level "^6.0.1"
     lib0 "^0.2.31"
 
-y-prosemirror@^1.0.5, y-prosemirror@^1.0.6:
+y-prosemirror@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/y-prosemirror/-/y-prosemirror-1.0.6.tgz#75cfdd3ec65638f4c3112dd1a5ccd2daeb147f12"
   integrity sha512-rbYA/kssa/4yMlvdfYrKtZwG15UCdwCIO6fCitua4VaJSVN2ruLvR1OrPl8txhKzyiPiBAphFzjj+ZXkm4D/6w==
