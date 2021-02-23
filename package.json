@@ -36,7 +36,7 @@
     "is-eu-member": "^1.0.5",
     "is-url-superb": "^5.0.0",
     "js-file-download": "^0.4.12",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "markdown-it": "^12.0.2",
     "markdown-it-footnote": "^3.0.2",
     "nuxt": "^2.15.2",
