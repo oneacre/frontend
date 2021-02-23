@@ -1545,12 +1545,12 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-code/-/extension-code-2.0.0-alpha.11.tgz#9cd56bb7be9ecb08dcd3726b564eecac300f0240"
   integrity sha512-JhbMZIP46p9KiCW1FJQkfK5uIdqRIP63G8wpj/YIUvgf9GjLlDuEGVDq1CmjpcQ0OPC3OG0cRPZflECqImfR8g==
 
-"@tiptap/extension-collaboration-cursor@^2.0.0-alpha.4":
-  version "2.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration-cursor/-/extension-collaboration-cursor-2.0.0-alpha.10.tgz#af3a06c00f5ac4c14808a153e83361edb3cdc391"
-  integrity sha512-2IQTcyLwfFTM8FnN0xBQSoLMfYWRAXWKlPzwfcW4owiIB0lOc0EYJ/A1/pLAsWLGJO5WoYAO4xU89Dgey7+Yzw==
+"@tiptap/extension-collaboration-cursor@^2.0.0-alpha.11":
+  version "2.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration-cursor/-/extension-collaboration-cursor-2.0.0-alpha.11.tgz#eac02b3915314d6b03298448a9cc087a9fa1b42a"
+  integrity sha512-uO3kEsLLP+CxwA1TUZd5FqpCknz6UB+NstKpz6p++yWEPMuxD+hSJI/CLqvL2Um1pJjy6Q5LgSE/psxxA5CSmg==
   dependencies:
-    y-prosemirror "^1.0.5"
+    y-prosemirror "^1.0.6"
 
 "@tiptap/extension-collaboration@^2.0.0-alpha.4":
   version "2.0.0-alpha.10"
@@ -10844,7 +10844,7 @@ y-leveldb@^0.1.0:
     level "^6.0.1"
     lib0 "^0.2.31"
 
-y-prosemirror@^1.0.5:
+y-prosemirror@^1.0.5, y-prosemirror@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/y-prosemirror/-/y-prosemirror-1.0.6.tgz#75cfdd3ec65638f4c3112dd1a5ccd2daeb147f12"
   integrity sha512-rbYA/kssa/4yMlvdfYrKtZwG15UCdwCIO6fCitua4VaJSVN2ruLvR1OrPl8txhKzyiPiBAphFzjj+ZXkm4D/6w==
