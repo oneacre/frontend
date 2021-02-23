@@ -1503,10 +1503,10 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-strike/-/extension-strike-2.0.0-alpha.10.tgz#671fd45952f6267a85add9633bbd59dd09842120"
   integrity sha512-my5RH44MXcsx5Hm/q8wIx/ga/3l84RrLmuzAO40p6f/eqigAbbsuiluIUm0mWuMHfrjI4tHTv9lBE0jA3wZ/yg==
 
-"@tiptap/extension-task-item@^2.0.0-alpha.5":
-  version "2.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-task-item/-/extension-task-item-2.0.0-alpha.11.tgz#dc5fd6e6aa45ff3c2149f7ae1a8d35d2a6fe5a11"
-  integrity sha512-8V5SyMyHfvEOvryfm4vbXSgEgDZLe7JRd9cPxb53WwuQGns/BwT+GO+o6bauin2RQ9sXRZuL9i194JZxkCR4Cg==
+"@tiptap/extension-task-item@^2.0.0-alpha.12":
+  version "2.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-task-item/-/extension-task-item-2.0.0-alpha.12.tgz#d40241ce1bbbda9755e28c31f36cfe7528003a2f"
+  integrity sha512-Znso9OZ0tVWfZSFV7CO64pevo5yEgMBtmPjo2INPKZzv6k86ufjqYLkJ2omRlUHDnEGNbwfP65KvZQgkicw8bw==
   dependencies:
     prosemirror-inputrules "^1.1.3"
 
