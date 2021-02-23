@@ -6,5 +6,5 @@ version = 1
 # do not automerge "major" version upgrades.
 versions = ["minor", "patch"]
 usernames = ["dependabot"]
-merge.automerge_label = "depenencies"
+merge.automerge_label = "dependencies"
 update.always = true
