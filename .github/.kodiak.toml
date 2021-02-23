@@ -1,10 +1,32 @@
 # Minimal config. version is the only required field.
 version = 1
 
+[merge]
+automerge_label = ["dependencies"]
+
 [merge.automerge_dependencies]
 # only auto merge "minor" and "patch" version upgrades.
 # do not automerge "major" version upgrades.
 versions = ["minor", "patch"]
 usernames = ["dependabot"]
-merge.automerge_label = ["dependencies"]
-update.always = true
+
+[update]
+
+# Update a PR whenever out of date with the base branch. The PR will be updated
+# regardless of merge requirements (e.g. failing status checks, missing reviews,
+# blacklist labels).
+#
+# Kodiak will only update PRs with the `merge.automerge_label` label or if
+# `update.require_automerge_label = false`.
+#
+# When enabled, _Kodiak will not be able to efficiently update PRs._ If you have
+# multiple PRs against a target like `master`, any time a commit is added to
+# `master` _all_ of those PRs against `master` will update. For `N` PRs against
+# a target you will see at least `N(N-1)/2` updates. If this configuration
+# option was disabled you would only see at least `N-1` updates.
+always = false # default: false
+
+# When enabled, Kodiak will only update PRs that have an automerge label
+# (configured via `merge.automerge_label`). When disable, Kodiak will update any
+# PR. This option only applies when `update.always = true`.
+require_automerge_label = true # default: true
