@@ -31,7 +31,7 @@
     "@tiptap/extension-highlight": "^2.0.0-alpha.11",
     "@tiptap/extension-task-item": "^2.0.0-alpha.12",
     "@tiptap/extension-task-list": "^2.0.0-alpha.11",
-    "@tiptap/vue-starter-kit": "^2.0.0-alpha.15",
+    "@tiptap/vue-starter-kit": "^2.0.0-alpha.16",
     "eslint": "^7.12.1",
     "is-eu-member": "^1.0.5",
     "is-url-superb": "^5.0.0",
