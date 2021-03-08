@@ -1489,10 +1489,10 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@tiptap/core@^2.0.0-alpha.22":
-  version "2.0.0-alpha.22"
-  resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-alpha.22.tgz#4c379b1865e788adcd18075f2647e99fda7800f0"
-  integrity sha512-wkJMn4zDAe6f04cUAwhZ+zfOr8BGVfLr9OQPpJ0s/Tq2wZmJGc6Ttg1PNo8eSb9lUtxdTkqGggTHoO1gTbQjfQ==
+"@tiptap/core@^2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-beta.1.tgz#d93db857bac0fa888ce6513a7c6a91b7147b5def"
+  integrity sha512-CZe2OwFLCb97y58ytRxoxQCNVHyfdtX167BfqBTFtqG+zGDlh+l4hgZW/5dZinu08MetXz04MJxKv3MGug5Rog==
   dependencies:
     "@types/prosemirror-commands" "^1.0.4"
     "@types/prosemirror-inputrules" "^1.0.4"
