@@ -1663,20 +1663,20 @@
     "@tiptap/extension-strike" "^2.0.0-beta.1"
     "@tiptap/extension-text" "^2.0.0-beta.1"
 
-"@tiptap/vue-starter-kit@^2.0.0-beta.4":
-  version "2.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@tiptap/vue-starter-kit/-/vue-starter-kit-2.0.0-beta.4.tgz#bb0022ceaca92ddacc8c77d532368456af194988"
-  integrity sha512-+letHhBzeTqYgjLbLDrJvElCkj/wzoN2tdKoF1x2RzUfQ2jw/WY4wu1B/pxyofbkY4Ax6H2xyKfvkEAufluAWw==
+"@tiptap/vue-starter-kit@^2.0.0-beta.5":
+  version "2.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tiptap/vue-starter-kit/-/vue-starter-kit-2.0.0-beta.5.tgz#5a0f77383f8a73ae74cd12513c3572bf6af118aa"
+  integrity sha512-0x1qtq/qx7b+MuHDjhMmIP2cIMvE4PLf+QMRvUYpzk1pU5KPz7EZZr2bcdwfuSY0LU0MuqRYm80mq04IHb6SgA==
   dependencies:
     "@tiptap/starter-kit" "^2.0.0-beta.4"
-    "@tiptap/vue" "^2.0.0-beta.1"
+    "@tiptap/vue" "^2.0.0-beta.2"
 
-"@tiptap/vue@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@tiptap/vue/-/vue-2.0.0-beta.1.tgz#2a72a66d7ae1ebbaef4fe7778f9bc30f73338103"
-  integrity sha512-7brlnRfTFpBtCyqEeWThrA0ULmKfp0V/K3IQo6Kci1zSR9p38KpigGWMtstDcSSTVoDBknRusIXfFMBH2cyJyw==
+"@tiptap/vue@^2.0.0-beta.2":
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@tiptap/vue/-/vue-2.0.0-beta.2.tgz#eb18419d646ec7876c5f91f66f60d21802479b3e"
+  integrity sha512-uctGomWVApZ9JJkTyQ/fymCF8G6JviKMO9UATBo8+k6Km0fB04GCrC9wyiuqCU3rt9RKPPel9eITNqJ2cBTW6Q==
   dependencies:
-    prosemirror-view "^1.17.8"
+    prosemirror-view "^1.18.1"
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -8330,6 +8330,15 @@ prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, pros
   version "1.17.8"
   resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.17.8.tgz#b6bca30931830ed97ef7370fdc90e059f3daee03"
   integrity sha512-zRwnJQSo3xMamM9CxOleHGu0zUqkcYP13z27WdNckpV6zmJT1tLfNx9Vu1drhNxvyN3H72ymTpPPISc2p9oDNg==
+  dependencies:
+    prosemirror-model "^1.1.0"
+    prosemirror-state "^1.0.0"
+    prosemirror-transform "^1.1.0"
+
+prosemirror-view@^1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.18.1.tgz#52ad1c67f51144e27e368bba129142ce87c7791e"
+  integrity sha512-TZd8byDRfdopLiokBY7T27msCSfWqqRxWs/LnBbdI030F+iI2kS+tO59/XFnpZxMLFKlJgOgGGhM9SzD1Nwdxw==
   dependencies:
     prosemirror-model "^1.1.0"
     prosemirror-state "^1.0.0"
