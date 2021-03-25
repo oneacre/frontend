@@ -1656,18 +1656,18 @@
     "@tiptap/extension-strike" "^2.0.0-beta.1"
     "@tiptap/extension-text" "^2.0.0-beta.1"
 
-"@tiptap/vue-starter-kit@^2.0.0-beta.5":
-  version "2.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@tiptap/vue-starter-kit/-/vue-starter-kit-2.0.0-beta.5.tgz#5a0f77383f8a73ae74cd12513c3572bf6af118aa"
-  integrity sha512-0x1qtq/qx7b+MuHDjhMmIP2cIMvE4PLf+QMRvUYpzk1pU5KPz7EZZr2bcdwfuSY0LU0MuqRYm80mq04IHb6SgA==
+"@tiptap/vue-starter-kit@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@tiptap/vue-starter-kit/-/vue-starter-kit-2.0.0-beta.6.tgz#61fb63b33b4464b03071ed1e9ed73b9ac9330a5e"
+  integrity sha512-4j1+2QQUtTBvm4lhC+BIYIXDsVoBeHNnR9TAW3/938H+D9+eYlI+3Won4qIeoXZlX43da8K9eIomuxxBuCdPYw==
   dependencies:
     "@tiptap/starter-kit" "^2.0.0-beta.4"
-    "@tiptap/vue" "^2.0.0-beta.2"
+    "@tiptap/vue" "^2.0.0-beta.3"
 
-"@tiptap/vue@^2.0.0-beta.2":
-  version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@tiptap/vue/-/vue-2.0.0-beta.2.tgz#eb18419d646ec7876c5f91f66f60d21802479b3e"
-  integrity sha512-uctGomWVApZ9JJkTyQ/fymCF8G6JviKMO9UATBo8+k6Km0fB04GCrC9wyiuqCU3rt9RKPPel9eITNqJ2cBTW6Q==
+"@tiptap/vue@^2.0.0-beta.3":
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@tiptap/vue/-/vue-2.0.0-beta.3.tgz#8a656899a74faeacd993d3f64e6b85891a2c9275"
+  integrity sha512-L9y65BjV944u3Tuq09KBuep8rrktblybpWqxd+9BMyLNpo3u3wv8BD6+C4ByEEM+GEJVEVgfZypFgi2WC7hIGA==
   dependencies:
     prosemirror-view "^1.18.1"
 
