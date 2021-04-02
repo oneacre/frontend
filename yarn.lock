@@ -1492,6 +1492,28 @@
     prosemirror-transform "^1.2.12"
     prosemirror-view "^1.18.2"
 
+"@tiptap/core@^2.0.0-beta.12":
+  version "2.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-beta.12.tgz#1099497299ea9248d217c45ec1f2bf39b7ef9f1f"
+  integrity sha512-Oxm4Wnrg+opsMvWN8+E+/3nslPpwkfOXMoPtPo4cVFV6z9HptOzUHRmryyfK8Ln1Wdpt2iPz+FyIivA/CegXUw==
+  dependencies:
+    "@types/prosemirror-commands" "^1.0.4"
+    "@types/prosemirror-inputrules" "^1.0.4"
+    "@types/prosemirror-keymap" "^1.0.4"
+    "@types/prosemirror-model" "^1.13.0"
+    "@types/prosemirror-schema-list" "^1.0.3"
+    "@types/prosemirror-state" "^1.2.6"
+    "@types/prosemirror-transform" "^1.1.2"
+    "@types/prosemirror-view" "^1.17.1"
+    prosemirror-commands "^1.1.7"
+    prosemirror-inputrules "^1.1.3"
+    prosemirror-keymap "^1.1.3"
+    prosemirror-model "^1.13.3"
+    prosemirror-schema-list "^1.1.4"
+    prosemirror-state "^1.3.4"
+    prosemirror-transform "^1.2.12"
+    prosemirror-view "^1.18.2"
+
 "@tiptap/extension-blockquote@^2.0.0-beta.1":
   version "2.0.0-beta.1"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-blockquote/-/extension-blockquote-2.0.0-beta.1.tgz#023ae0ff734e26b9297376d7352747a12a7afd87"
@@ -1632,11 +1654,12 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-text/-/extension-text-2.0.0-beta.1.tgz#30777ae89690ddebdcf49dee620e05e547f1307e"
   integrity sha512-RS6n0qiQu/lXTeOtGX8nwCAoboyfi/UGC2/5Rz29NygPaPCW+Hli7/QvycC6R1efnCw5kUY1uNR0If5niswSfw==
 
-"@tiptap/starter-kit@^2.0.0-beta.4":
-  version "2.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@tiptap/starter-kit/-/starter-kit-2.0.0-beta.4.tgz#ef961e848f4ed06b6ea5e4eada15539209061fc8"
-  integrity sha512-YGZdfhuTpT0jGJaFEuyQJvZ0/+tljAp/azMSQ179Ry84zLXlL7yRoLroGPOvCE92m03LwFDC6aVKQ7+8auf1gA==
+"@tiptap/starter-kit@^2.0.0-beta.7":
+  version "2.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@tiptap/starter-kit/-/starter-kit-2.0.0-beta.7.tgz#cb762a5dbbb86c74a16ce7887c411dffc31c4469"
+  integrity sha512-sZsFFFqlwVWRQEJXJtQyak/q8YGejdUpnQKptcfa6h6Qnuy4JB56wT1IvvnH8IqhnaumigOCDDVoDEAPWrgNxw==
   dependencies:
+    "@tiptap/core" "^2.0.0-beta.12"
     "@tiptap/extension-blockquote" "^2.0.0-beta.1"
     "@tiptap/extension-bold" "^2.0.0-beta.1"
     "@tiptap/extension-bullet-list" "^2.0.0-beta.1"
@@ -1656,20 +1679,20 @@
     "@tiptap/extension-strike" "^2.0.0-beta.1"
     "@tiptap/extension-text" "^2.0.0-beta.1"
 
-"@tiptap/vue-starter-kit@^2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@tiptap/vue-starter-kit/-/vue-starter-kit-2.0.0-beta.6.tgz#61fb63b33b4464b03071ed1e9ed73b9ac9330a5e"
-  integrity sha512-4j1+2QQUtTBvm4lhC+BIYIXDsVoBeHNnR9TAW3/938H+D9+eYlI+3Won4qIeoXZlX43da8K9eIomuxxBuCdPYw==
+"@tiptap/vue-starter-kit@^2.0.0-beta.11":
+  version "2.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@tiptap/vue-starter-kit/-/vue-starter-kit-2.0.0-beta.11.tgz#78a24acb1ad7816786885e17ce23272dfd6f0c8d"
+  integrity sha512-txdQ8xMxAD1Aes/zjP2X32GDSLZzy4UIJKaqMgMn2/iMp22bM/V70IgAvy2pGWn+6MtsD5V2ARtL4ZLrLJQJMg==
   dependencies:
-    "@tiptap/starter-kit" "^2.0.0-beta.4"
-    "@tiptap/vue" "^2.0.0-beta.3"
+    "@tiptap/starter-kit" "^2.0.0-beta.7"
+    "@tiptap/vue" "^2.0.0-beta.5"
 
-"@tiptap/vue@^2.0.0-beta.3":
-  version "2.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@tiptap/vue/-/vue-2.0.0-beta.3.tgz#8a656899a74faeacd993d3f64e6b85891a2c9275"
-  integrity sha512-L9y65BjV944u3Tuq09KBuep8rrktblybpWqxd+9BMyLNpo3u3wv8BD6+C4ByEEM+GEJVEVgfZypFgi2WC7hIGA==
+"@tiptap/vue@^2.0.0-beta.5":
+  version "2.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tiptap/vue/-/vue-2.0.0-beta.5.tgz#d8d09727ace794bcafd3f1b2c182a93ad55e80ab"
+  integrity sha512-sQN3CZvJcVZn/bYtPufHs8YSrNEStb/lxY5Ryiu70FQEk3wTxXxHXxjLnNGCQv6aiPEFUSBPAXk7wAe5++FGXA==
   dependencies:
-    prosemirror-view "^1.18.1"
+    prosemirror-view "^1.18.2"
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -8319,7 +8342,7 @@ prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transfor
   dependencies:
     prosemirror-model "^1.0.0"
 
-prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, prosemirror-view@^1.16.5, prosemirror-view@^1.18.1, prosemirror-view@^1.18.2:
+prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, prosemirror-view@^1.16.5, prosemirror-view@^1.18.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/prosemirror-view/-/prosemirror-view-1.18.2.tgz#dd5d72e90266ec897464005eb6090fbc6acfeb11"
   integrity sha512-dgJiPMC7fTtndwSthuIW4P2GlSRL+7JFrVPt+tvAkZ9Kq6xWaAbyZOvGKziTJnoiXk9qAGyqELSHhiJ3t6iNfQ==
