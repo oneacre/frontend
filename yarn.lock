@@ -1615,12 +1615,12 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-code/-/extension-code-2.0.0-beta.1.tgz#4fa3c58c2c891cc752d0d5df2c2b5ccde4c6d072"
   integrity sha512-v/W7Rt15n8u2suVphpl286khm6zTRTU4hjdsZhvcmot0pQhN13QKzxXLfXo8OwEpvK1M81EOF6iIzAmogi5JLg==
 
-"@tiptap/extension-collaboration-cursor@^2.0.0-alpha.11":
-  version "2.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration-cursor/-/extension-collaboration-cursor-2.0.0-alpha.11.tgz#eac02b3915314d6b03298448a9cc087a9fa1b42a"
-  integrity sha512-uO3kEsLLP+CxwA1TUZd5FqpCknz6UB+NstKpz6p++yWEPMuxD+hSJI/CLqvL2Um1pJjy6Q5LgSE/psxxA5CSmg==
+"@tiptap/extension-collaboration-cursor@^2.0.0-beta.5":
+  version "2.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration-cursor/-/extension-collaboration-cursor-2.0.0-beta.5.tgz#b1e88cb9042fe4b20b88421b1f5aa15c4cf59956"
+  integrity sha512-Lnahb76iUBgrn1C0NNhVlIuUVLFTMQOEaluOp3bHoZHGF5ZdzN1SWwtzpsAucwbNpA/qT9If+x/pEjg3MgrEFw==
   dependencies:
-    y-prosemirror "^1.0.6"
+    y-prosemirror "^1.0.7"
 
 "@tiptap/extension-collaboration@^2.0.0-beta.4":
   version "2.0.0-beta.4"
@@ -10983,7 +10983,7 @@ y-leveldb@^0.1.0:
     level "^6.0.1"
     lib0 "^0.2.31"
 
-y-prosemirror@^1.0.6, y-prosemirror@^1.0.7:
+y-prosemirror@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/y-prosemirror/-/y-prosemirror-1.0.7.tgz#e0d3bbbc8b88bc4942d9720fd8413da393999200"
   integrity sha512-AnlwGoz6+o6PkrBm09kY3+dXP3Yt6QHDIMHhtn0mGeUnSQRVcI0/raQwh/kYD7z1EUPghKfDaH8DoI0duAu5sg==
