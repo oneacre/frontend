@@ -1662,10 +1662,10 @@
   dependencies:
     prosemirror-inputrules "^1.1.3"
 
-"@tiptap/extension-highlight@^2.0.0-beta.2":
-  version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-highlight/-/extension-highlight-2.0.0-beta.2.tgz#48b4fdb531b9b2e383c67e75eea8226dbdd3125c"
-  integrity sha512-XwrF/3K2UtcVpnOw21pr1SNfYdVdyLEU6SPH2EwOxitIdKDPfazVUQmy5zzqGBRMX1FOiIpuP+Pite+JzpMP/Q==
+"@tiptap/extension-highlight@^2.0.0-beta.3":
+  version "2.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-highlight/-/extension-highlight-2.0.0-beta.3.tgz#14b3174d66ea2c5353eb3f00f99fad8b3c9e6f29"
+  integrity sha512-sT9Ee+T6DAWfOfjtfDYXHkwcPMBnne6O83h3D4ySr8RmrZOLOBcolCbVn8DpCn2TmkQQ6p86/H6m7Fjjp09OOw==
 
 "@tiptap/extension-history@^2.0.0-beta.1":
   version "2.0.0-beta.1"
