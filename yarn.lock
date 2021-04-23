@@ -1622,12 +1622,12 @@
   dependencies:
     y-prosemirror "^1.0.8"
 
-"@tiptap/extension-collaboration@^2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration/-/extension-collaboration-2.0.0-beta.6.tgz#e7454f33691b162a513f1da135c437de197902c6"
-  integrity sha512-kreGhK9DodW7TJ3hSnA8RNwbTu19vxtu9UYHSh9PrcaxQafcFhAhY7HChbyEQqYTPRNZRX5qB7QqZh6UzZGq+A==
+"@tiptap/extension-collaboration@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration/-/extension-collaboration-2.0.0-beta.8.tgz#bacd61dd7cbdf5f75f505528768444c8ec81d31c"
+  integrity sha512-ecky4Q3Z/jbkqrbnL9i7b2xZB6mIzBvdx+Yk5jkFqPuXYMqHDLqZHWjBQ+4eyczi+qbYwegMyCBS5d4Urk7XdQ==
   dependencies:
-    y-prosemirror "^1.0.7"
+    y-prosemirror "^1.0.8"
 
 "@tiptap/extension-document@^2.0.0-beta.1":
   version "2.0.0-beta.1"
@@ -10971,7 +10971,7 @@ y-leveldb@^0.1.0:
     level "^6.0.1"
     lib0 "^0.2.31"
 
-y-prosemirror@^1.0.7, y-prosemirror@^1.0.8:
+y-prosemirror@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/y-prosemirror/-/y-prosemirror-1.0.8.tgz#5925b90a11005560baf31efbd08a725351f89ea2"
   integrity sha512-EGH5y/XNBEHD16hQFUas4DbnOI/jebjz4bNCRe8gggSMSvIR5g3OdYGKrtvtfDHcyCTBmyhv1lfZd2IIWG+scA==
