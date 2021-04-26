@@ -4,7 +4,7 @@ import { markdownCustomCompiler } from './helpers/markdownCustomCompiler'
 const url =
   process.env.NODE_ENV === 'development'
     ? process.env.API || 'http://localhost:8080'
-    : 'http://api.oneacre.online'
+    : 'https://oneacre.herokuapp.com'
 // TODO: Should this link to a defualt product / test env?
 console.log(url)
 
