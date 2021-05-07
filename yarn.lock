@@ -1707,10 +1707,10 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-strike/-/extension-strike-2.0.0-beta.1.tgz#3a1c32075a7f20cd85109ea81a90f84d86b7e79c"
   integrity sha512-tUeEbFO9vMRSYhpsBShEa723daT2sJeKGgZmsUzt/H5VInmEhstPMzVo2N1HoQ3QqEGHSkOCWVgA2g3O0IUzug==
 
-"@tiptap/extension-task-item@^2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-task-item/-/extension-task-item-2.0.0-beta.6.tgz#ef6383f85184a461acdefc5f788e5b6c46cb9382"
-  integrity sha512-gaCo9gANcra0FVl+ofcKMYsIPqwtEhY3BPtLMjwxjVv33WMTHmBh5sWpnAGZZ/ZOo+rinNLCIACEo47ogQhRDw==
+"@tiptap/extension-task-item@^2.0.0-beta.12":
+  version "2.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-task-item/-/extension-task-item-2.0.0-beta.12.tgz#a70a6e07d1e34a3810223b102c55c796c9ad2d53"
+  integrity sha512-IgUml+1tyg2NLBpBCHDL80/3as4Xoe9Xe3f2oQQOoVOTtLVgIo61KQKXJTSaYL++tumLYgHaq1l8ZXp+LpzyNA==
   dependencies:
     prosemirror-inputrules "^1.1.3"
 
