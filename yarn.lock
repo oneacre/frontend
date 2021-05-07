@@ -1615,10 +1615,10 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-code/-/extension-code-2.0.0-beta.1.tgz#4fa3c58c2c891cc752d0d5df2c2b5ccde4c6d072"
   integrity sha512-v/W7Rt15n8u2suVphpl286khm6zTRTU4hjdsZhvcmot0pQhN13QKzxXLfXo8OwEpvK1M81EOF6iIzAmogi5JLg==
 
-"@tiptap/extension-collaboration-cursor@^2.0.0-beta.12":
-  version "2.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration-cursor/-/extension-collaboration-cursor-2.0.0-beta.12.tgz#a07209ffa88c6a667f0634dd4fdea34432c94a59"
-  integrity sha512-rEgv+rPHYOivUhjW7HgQt1D3CGKcglIVgoPPugIXoc19kmUOQ8Bmm4P55YY1HiWaC2EIGjioymkJtzxLgzl6Tw==
+"@tiptap/extension-collaboration-cursor@^2.0.0-beta.16":
+  version "2.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration-cursor/-/extension-collaboration-cursor-2.0.0-beta.16.tgz#9baed9ac813eecc7c793b5717f3b2372b5a75108"
+  integrity sha512-0/E4URCHZ5AtIQ2aN4fP3d0qK3wBiFns069h7tOs00kLXKjjsWifAjR2WTVv38iRJAxZP39IMSg0HnXkZfPJmw==
   dependencies:
     y-prosemirror "^1.0.9"
 
