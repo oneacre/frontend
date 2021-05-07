@@ -1622,10 +1622,10 @@
   dependencies:
     y-prosemirror "^1.0.9"
 
-"@tiptap/extension-collaboration@^2.0.0-beta.11":
-  version "2.0.0-beta.11"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration/-/extension-collaboration-2.0.0-beta.11.tgz#bf747f927b8cf5eaa1759c5014d61c531cf5d828"
-  integrity sha512-dGawlLJDZBBLnwzmT/dpw/9GXiTQZPIIYEK2FdZKS9i6oRQ9GYer89uT0szdCCH30LRLqP2fwdT64TJjm8jr6w==
+"@tiptap/extension-collaboration@^2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-collaboration/-/extension-collaboration-2.0.0-beta.14.tgz#c4649dded7d596e26a38f2011f7e09766dfa5c5e"
+  integrity sha512-EKzbIG7Smfj8BVrCY/YbbcPl0DloISpqAqmjeMOy13FpUTFTlSX+CXQYnb9UPOEpjMpUdevdGfxrKeS2gEfVSg==
   dependencies:
     y-prosemirror "^1.0.9"
 
