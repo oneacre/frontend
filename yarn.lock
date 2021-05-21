@@ -6458,7 +6458,7 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
-lib0@^0.2.31, lib0@^0.2.34, lib0@^0.2.35, lib0@^0.2.41:
+lib0@^0.2.31, lib0@^0.2.34, lib0@^0.2.35, lib0@^0.2.41, lib0@^0.2.42:
   version "0.2.42"
   resolved "https://registry.yarnpkg.com/lib0/-/lib0-0.2.42.tgz#6d8bf1fb8205dec37a953c521c5ee403fd8769b0"
   integrity sha512-8BNM4MiokEKzMvSxTOC3gnCBisJH+jL67CnSnqzHv3jli3pUvGC8wz+0DQ2YvGr4wVQdb2R2uNNPw9LEpVvJ4Q==
@@ -11182,21 +11182,21 @@ y-prosemirror@^1.0.9:
   dependencies:
     lib0 "^0.2.34"
 
-y-protocols@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/y-protocols/-/y-protocols-1.0.4.tgz#810978c6172474be87457c3bcd669e529c5ba3a1"
-  integrity sha512-5/Hd6DJ5Y2SlbqLIKq86BictdOS0iAcWJZCVop8MKqx0XWwA+BbMn4538n4Z0CGjFMUGnG1kGzagk3BKGz5SvQ==
+y-protocols@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/y-protocols/-/y-protocols-1.0.5.tgz#91d574250060b29fcac8f8eb5e276fbad594245e"
+  integrity sha512-Wil92b7cGk712lRHDqS4T90IczF6RkcvCwAD0A2OPg+adKmOe+nOiT/N2hvpQIWS3zfjmtL4CPaH5sIW1Hkm/A==
   dependencies:
-    lib0 "^0.2.35"
+    lib0 "^0.2.42"
 
-y-websocket@^1.3.12:
-  version "1.3.12"
-  resolved "https://registry.yarnpkg.com/y-websocket/-/y-websocket-1.3.12.tgz#eb7c58dfcbaebe70f603c9678c48f9b15e34d723"
-  integrity sha512-ZPFZ41aUG8WL87g8tIrSuB0NtWJhOsud/epRERd3h0T80cywTEP9gtJuHexJpZIZGI1LvN9F+bkowro/oAbfkg==
+y-websocket@^1.3.13:
+  version "1.3.13"
+  resolved "https://registry.yarnpkg.com/y-websocket/-/y-websocket-1.3.13.tgz#5ef20f59e3b8d1660db008d1c5df71ee6a388058"
+  integrity sha512-KKz+KsCaWAFk9YblwpyNDROtvTkWq4ObHtPH9ggQB0Crw/Ad1z6SJhdnZkObCyS3vxZBy0gX9EIVmT6RnGpOpA==
   dependencies:
-    lib0 "^0.2.35"
+    lib0 "^0.2.42"
     lodash.debounce "^4.0.8"
-    y-protocols "^1.0.4"
+    y-protocols "^1.0.5"
   optionalDependencies:
     ws "^6.2.1"
     y-leveldb "^0.1.0"
