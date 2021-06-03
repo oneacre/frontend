@@ -1631,10 +1631,10 @@
     escape-string-regexp "^5.0.0"
     lodash.deburr "^4.1.0"
 
-"@tiptap/core@^2.0.0-beta.12", "@tiptap/core@^2.0.0-beta.76":
-  version "2.0.0-beta.76"
-  resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-beta.76.tgz#85740391dc1551627eb8917f1302dd52daa6500c"
-  integrity sha512-mUjyTvNr32p6sr0hnxY6OBb1102y+A8HI3uYtLP/Ql7eOz2gYPMkfD/mw9lYOlJic4DXn24aKWvx9fEUfLwT+g==
+"@tiptap/core@^2.0.0-beta.12", "@tiptap/core@^2.0.0-beta.79":
+  version "2.0.0-beta.79"
+  resolved "https://registry.yarnpkg.com/@tiptap/core/-/core-2.0.0-beta.79.tgz#bec2841ee6b7117020f8ec9f0de72f649e8f4454"
+  integrity sha512-fcRuap131XAM9QKZ+Mr1NoVXYsvmJMqjm2d/+OWv0BiNmKPeXAdVkgAAD7X5Tg2jzfFiwXriHsQsQS/1i2ZMLQ==
   dependencies:
     "@types/prosemirror-commands" "^1.0.4"
     "@types/prosemirror-inputrules" "^1.0.4"
