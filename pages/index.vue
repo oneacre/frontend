@@ -7,38 +7,16 @@
         distribution project based in The Hague, The Netherlands. The project
         seeds unprintable text-based works by emerging artists.
       </p>
-      <p class="jp l">
-        <a href="#">oneacre.online</a>
-        はオンライン•プラットフォームを使い、若手作家による印刷不可能なテキスト•ベースの作品を発表、配布する実験的なプロジェクト。
-      </p>
-      <p class="en r">
+      <p class="jp r">
         Currently it presents the second release of Poetics and Politics of
         Erasure by Yun Lee, a multidisciplinary research paper on the aesthetics
         and politics of erasure.
-      </p>
-      <p class="jp r">
-        『消去の詩学と政治
-        』はユン•リーによる「消去」に関する美学と政治を考察するマルティディシプリナリー•エッセイ。
-      </p>
-      <p class="en l">
-        Thank you for joining us for the
-        <a
-          href="https://youtu.be/k9CCguIfLLM"
-          target="_blank"
-          rel="noopener noreferrer"
-          >publication launch of Poetics and Politics of Erasure</a
-        >
-        on Friday Nov 20 2020 at 14:30 CEST / 21:30 JST as part of the VIRTUAL
-        ART BOOK FAIR of TOKYO ART BOOK FAIR.
-      </p>
-      <p class="en r">
+        <br />
+        <br />
         To purchase a copy of the publication please
         <NuxtLink to="/catalog/poetics-and-politics-of-erasure/payment"
           >click here</NuxtLink
         >
-      </p>
-      <p class="jp r">
-        出版物の購入をご希望の方は、こちらをクリックしてください。
       </p>
     </BlockIntro>
 
@@ -88,5 +66,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
