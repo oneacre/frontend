@@ -5,7 +5,7 @@ const url =
   process.env.NODE_ENV === 'development'
     ? process.env.API || 'http://localhost:8080'
     : 'https://api.oneacre.online'
-// TODO: Should this link to a defualt product / test env?
+
 console.log(url)
 
 const siteMeta = {
@@ -142,9 +142,9 @@ export default {
     '@nuxtjs/toast',
   ],
 
-   toast: {
-       position: 'bottom-left',
-   },
+  toast: {
+    position: 'bottom-left',
+  },
 
   auth: {
     redirect: {
@@ -158,7 +158,7 @@ export default {
         client_id: process.env.CLIENT_ID,
         refreshToken: {
           property: 'refresh_token',
-          maxAge: 60 * 60 * 24 * 30
+          maxAge: 60 * 60 * 24 * 30,
         },
       },
     },
@@ -177,12 +177,11 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    proxyHeaders: false,
     credentials: true,
     baseURL: `${url}/api/v2`,
     headers: {
-      'Authorization': `oa_Bearer ${process.env.BEARER_TOKEN}`
-    }
+      Authorization: `oa_Bearer ${process.env.BEARER_TOKEN}`,
+    },
   },
   /*
    ** Build configuration
