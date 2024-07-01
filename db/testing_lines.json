@@ -1,0 +1,15 @@
+{
+    "data": [
+        {"_id":"59e91dfb7c21f800126cae42","line_distance":"2943","date":"Thu Oct 19 2017 23:49:49 GMT+0200 (Paris, Madrid (heure d’été))"},
+        {"_id":{"$oid":"5bd88e376336ff68928a3b97"},"line_distance":"4022","date":"Tue Oct 30 2018 18:00:39 GMT+0100 (Central European Standard Time)"},
+        {"_id":{"$oid":"5bd88e436336ff68928a3b98"},"line_distance":"876","date":"Tue Oct 30 2018 18:00:51 GMT+0100 (Central European Standard Time)"},
+        {"_id":{"$oid":"5bd8bb20b4b0c96f0302cf09"},"line_distance":"2503","date":"Tue Oct 30 2018 21:12:16 GMT+0100 (Central European Standard Time)"},
+        {"_id":{"$oid":"5bd8bdf75f7bb671852cedcc"},"line_distance":"1177","date":"Tue Oct 30 2018 21:24:23 GMT+0100 (Central European Standard Time)"},
+        {"_id":{"$oid":"5bd8bdff5f7bb671852cedcd"},"line_distance":"2800","date":"Tue Oct 30 2018 21:24:31 GMT+0100 (Central European Standard Time)"},
+        {"_id":{"$oid":"5bd8be875f7bb671852cedce"},"line_distance":999999999,"date":"2018-10-30T20:26:47.226Z"},
+        {"_id":{"$oid":"5bd8bee65f7bb671852cedcf"},"line_distance":999999999,"date":"2018-10-30T20:28:22.509Z"},
+        {"_id":{"$oid":"5bd8bf5e5f7bb671852cedd0"},"line_distance":999999999,"date":"2018-10-30T20:28:22.509Z"},
+        {"_id":{"$oid":"5bd8c16b8bd2c973a243a7a3"},"line_distance":999999999,"date":"2018-10-30T20:39:07.116Z"},
+        {"_id":{"$oid":"5bdc653f83c4cde63e1f6cc6"},"line_distance":234098234,"date":"2018-11-02T14:54:55.417Z"}
+]
+}

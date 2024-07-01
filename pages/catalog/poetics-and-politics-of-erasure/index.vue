@@ -468,7 +468,7 @@ export default {
       title: 'Poetics and Politics of Erasure',
       description: 'oneacre.online is an experimental publication project, of size exactly equal to the area of 1 chain by 1 furlong that aims to utilise the omnidirectional website space to seed works.',
       image: '/images/ingrid/oa_meta_img.jpg',
-      visitors: 0
+      visitors: 5088
     }
   },
   head() {
@@ -510,14 +510,7 @@ export default {
         },
       ],
     }
-  },
-  async fetch() {
-    try {
-      this.visitors = await this.$axios.$get('/yun/count') || 1400
-    } catch (err) {
-      console.log(err)
-    }
-  },
+  }
 }
 </script>
 
