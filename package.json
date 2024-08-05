@@ -32,7 +32,7 @@
     "lodash": "^4.17.21",
     "markdown-it": "^12.1.0",
     "markdown-it-footnote": "^3.0.3",
-    "nuxt": "^2.17.4",
+    "nuxt": "^3.12.4",
     "prosemirror-model": "1.14.2",
     "string-to-color": "^2.2.2",
     "v-clipboard": "^2.2.3",
